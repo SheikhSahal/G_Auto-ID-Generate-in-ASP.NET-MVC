@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="MVCModelStoreContainer" CdmEntityContainer="MVCEntities">
+    <EntitySetMapping Name="Auto_Id_">
+      <EntityTypeMapping TypeName="MVCModel.Auto_Id_">
+        <MappingFragment StoreEntitySet="Auto_Id_">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="Employeeid" ColumnName="Employeeid" />
+          <ScalarProperty Name="EmployeeName" ColumnName="EmployeeName" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

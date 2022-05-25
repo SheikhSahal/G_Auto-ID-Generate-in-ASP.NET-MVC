@@ -1,0 +1,19 @@
+﻿@model auto.Models.Auto_Id_
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+
+@using (Html.BeginForm())
+{
+    <p>
+        @Html.TextBoxFor(m => m.Employeeid,new { @class="form-control"})
+    </p>
+    <p>
+        @Html.TextBoxFor(m => m.EmployeeName, new { @class="form-control" })
+    </p>
+    <p>
+        <input type="submit" value="Save" class="btn btn-primary" />
+    </p>
+}
